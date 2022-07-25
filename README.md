@@ -12,4 +12,4 @@
 - The datasset is freely available on Kaggle, so there is no need to actually run the script to obtain the data, the repository is strictly for educational purposes.
 
 ## License
-- This program is licensed under the GPL V3.
+- This program is licensed under the AGPL V3.
