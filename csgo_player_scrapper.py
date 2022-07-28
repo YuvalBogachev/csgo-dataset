@@ -19,7 +19,7 @@ def get_stats_from_page(player_page_link):
     stats_soup = BeautifulSoup(page.content, 'html.parser')
 
     # Get player name
-    name_tag = stats_soup.find('h1', class_="summaryNickname text-ellipsis")
+    name_tag = stats_soup.find('h1', class_='summaryNickname text-ellipsis')
     stats.append(name_tag.get_text())
 
     # Get other stats
@@ -31,7 +31,7 @@ def get_stats_from_page(player_page_link):
         if stat[-1] == '%':
             stat = stat[:-1]
         stats.append(stat)
-    other_stats = stats_soup.find_all('div', class_="summaryStatBreakdownDataValue")
+    other_stats = stats_soup.find_all('div', class_='summaryStatBreakdownDataValue')
     # Remove the percentage sign from the KAST score
     kast = other_stats[2].get_text()[:-1]
     stats.insert(-1, kast)
@@ -57,12 +57,12 @@ def main():
 
     # Write player stats to CSV (use utf-8 for full utf character support)
     with open('csgo_player_stats.csv', 'w', encoding='utf-8') as file:
-        file.write('Name, Total Kills, Headshot Percentage, Total Deaths, Kill/Death Ratio,' 
-        'Damage Per Round, Grenade Damage Per Round, Maps Played, Rounds Played, Kills Per Round, Assists Per Round,'
-        'Deaths Per Round, Saved By Teamates Per Round, Saved Teamates Per Round, KAST, Impact, Rating 2.0\n')
+        file.write("Name, Total Kills, Headshot Percentage, Total Deaths, Kill/Death Ratio," 
+        "Damage Per Round, Grenade Damage Per Round, Maps Played, Rounds Played, Kills Per Round, Assists Per Round,"
+        "Deaths Per Round, Saved By Teamates Per Round, Saved Teamates Per Round, KAST, Impact, Rating 2.0\n")
         for player_link in tqdm(players_link_list):
             player_stats = get_stats_from_page(player_link)
-            file.write(','.join(player_stats) + '\n')
+            file.write(",".join(player_stats) + '\n')
 
 
 if __name__ == "__main__":
