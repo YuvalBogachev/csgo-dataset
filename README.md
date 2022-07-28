@@ -1,9 +1,9 @@
 ![CSGO](https://repository-images.githubusercontent.com/20169581/3fbcf480-71c7-11ea-8d8d-5be3b385641d)
 
-<center><h1>CSGO Dataset</h1></center>
-<center><b>A CS:GO HLTV Player Stats Dataset</b></center>
+<h1 align="center">CSGO Dataset</h1>
+<p align="center"><b>A CS:GO HLTV Player Stats Dataset</b></p>
 
-<center><img src="https://img.shields.io/github/issues/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/forks/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/stars/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/license/YuvalBogachev/csgo-dataset"></center>
+<p align="center"><img src="https://img.shields.io/github/issues/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/forks/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/stars/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/license/YuvalBogachev/csgo-dataset"></p>
 
 <p align="center">
   <a href="#about">About</a> •
