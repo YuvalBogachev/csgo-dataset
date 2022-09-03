@@ -3,7 +3,7 @@
 <h1 align="center">CSGO Dataset</h1>
 <p align="center"><b>A CS:GO HLTV Player Stats Dataset</b></p>
 
-<p align="center"><img src="https://img.shields.io/github/issues/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/forks/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/stars/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/license/YuvalBogachev/csgo-dataset"></p>
+<p align="center"><img src="https://img.shields.io/github/issues/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/forks/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/stars/YuvalBogachev/csgo-dataset"> <img src="https://img.shields.io/github/license/YuvalBogachev/csgo-dataset?style=flat"></p>
 
 <p align="center">
   <a href="#about">About</a> •
